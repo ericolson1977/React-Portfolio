@@ -1,0 +1,10 @@
+.container-fluid {
+    height: 15vh;
+    background-image: url("../images/earth.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar-brand {
+    color: white;
+}

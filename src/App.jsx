@@ -13,7 +13,6 @@ import Resume from './pages/Resume'
 
 function App() {
 
-  // var currentPage = "Contact";
   const [currentPage, setCurrentPage] = useState("About")
 
   function renderPage () {

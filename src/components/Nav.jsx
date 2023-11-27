@@ -1,9 +1,11 @@
+import '../styles/Nav.css';
+
 export default function Nav({ setCurrentPage }) {
 
     return (
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary custom-background">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Eric Olson</a>
+                <a class="navbar-brand custom-nametag" href="#">Eric Olson</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
