@@ -1,3 +1,4 @@
+import "../styles/About.css"
 import myPic from "../images/Me.jpg"
 
 export default function About () {
@@ -5,7 +6,7 @@ export default function About () {
         <>
             <h1>This is the About Page</h1>
             {/* <img src="./logo/react.svg"/> */}
-            <img src={myPic}/>
+            <img id="me" src={myPic}/>
             <p>asdsada sadsa dsaads </p>
         </>
     )

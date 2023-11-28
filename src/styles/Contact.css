@@ -1,3 +1,5 @@
-#name-warning, #email-warning {
+#name-warning, 
+#email-warning,
+#message-warning {
     display: none;
 }

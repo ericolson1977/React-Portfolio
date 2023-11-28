@@ -15,11 +15,11 @@ function App() {
 
   const [currentPage, setCurrentPage] = useState("About")
 
-  function renderPage () {
+  function renderPage() {
 
-    if(currentPage == "About") {
+    if (currentPage == "About") {
       return <About />
-    } else if(currentPage == "Contact") {
+    } else if (currentPage == "Contact") {
       return <Contact />
     } else if (currentPage == "Portfolio") {
       return <Portfolio />
@@ -39,8 +39,8 @@ function App() {
         }
       </main>
 
-    <Footer />
-     
+      <Footer />
+
     </>
   )
 }

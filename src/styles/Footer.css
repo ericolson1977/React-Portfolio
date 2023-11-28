@@ -1,0 +1,11 @@
+#footer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#github-icon,
+#linkedin-icon,
+#email-icon {
+    font-size: 50px;
+    color: lightgray;
+}
