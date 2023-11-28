@@ -22,7 +22,7 @@ export default function Projects() {
                     <a href="#" class="card-link">Another link</a>
                 </div>
             </div> */}
-<div id="projets-container">
+<div id="projects-container">
             <div class="card" style={{
                 width: "18rem",
             }}>
