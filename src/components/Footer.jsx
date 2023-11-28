@@ -1,7 +1,10 @@
 export default function Footer () {
     return (
         <footer>
-        <h1>This is a footer</h1>
+        <div>
+          <a href="https://github.com/ericolson1977" target="_blank">Github</a>
+          <a href="https://www.linkedin.com/in/eric-olson-b99a484/" target="_blank">LinkedIn</a>
+        </div>
       </footer>
     )
 }
