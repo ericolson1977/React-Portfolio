@@ -1,12 +1,14 @@
 import '../styles/Resume.css';
-
+import resumePdf from '../images/Resume_2.pdf'
 
 export default function Resume() {
     return (
         <>
-            <h1>This is the Resume Page</h1>
+            <h1></h1>
             <div>
-                <button>Click Here to Download My Resume</button>
+                <a href={resumePdf} target="_blank" rel="noopener noreferrer">
+                    <button type="button">Click Here to View My Resume</button>
+                </a>
                 <h2>Front-end Proficiencies</h2>
                 <ul>
                     <li>HTML</li>
