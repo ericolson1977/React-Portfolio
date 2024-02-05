@@ -4,7 +4,7 @@ import { Card, CardImg, CardText, CardImgOverlay, CardTitle, CardLink, Col } fro
 export default function Projects(props) {
     return (
         <>
-            {props.portfolioProjects.map(detail => (
+            {props.myProjects.map(detail => (
                 <Col key={detail.id}>
                     <Card inverse className='m-3 card-hover'>
                         <CardImg
