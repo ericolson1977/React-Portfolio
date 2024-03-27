@@ -1,6 +1,7 @@
 import carbonSnapshotImg from '../images/Carbon_Snapshot.png'
 import nationalParkImg from '../images/National_Park.png'
 import weatherDashboardImg from '../images/Weather_Dashboard.png'
+import bookSearchEngineImg from '../images/Book_Search_Engine.png'
 import JATEImg from '../images/JATE.png'
 import workdaySchedulerImg from '../images/Workday_Scheduler.png'
 import noteTakerImg from '../images/Note_Taker.png'
@@ -37,6 +38,15 @@ const myProjects = [
     },
     {
         id: 4,
+        imagePath: bookSearchEngineImg,
+        imageAlt: 'Screenshot of Book_Search_Engine',
+        liveLink: 'https://ancient-brook-31714-18b44250df4b.herokuapp.com/',
+        siteTitle: 'JBook Search Engine',
+        repoLink: 'https://github.com/ericolson1977/Book-Search-Engine',
+        description: 'This will be the description.'
+    },
+    {
+        id: 5,
         imagePath: JATEImg,
         imageAlt: 'Screenshot of JATE',
         liveLink: 'https://shrouded-castle-09726-012f9748a213.herokuapp.com/',
@@ -45,7 +55,7 @@ const myProjects = [
         description: 'This will be the description.'
     },
     {
-        id: 5,
+        id: 6,
         imagePath: workdaySchedulerImg,
         imageAlt: 'Screenshot of Workday Scheduler',
         liveLink: 'https://ericolson1977.github.io/Work-Day-Scheduler-Challenge-5/',
@@ -54,7 +64,7 @@ const myProjects = [
         description: 'This will be the description.'
     },
     {
-        id: 6,
+        id: 7,
         imagePath: noteTakerImg,
         imageAlt: 'Screenshot of Note Taker',
         liveLink: 'https://sleepy-castle-91866-cccedcdd444a.herokuapp.com/',
@@ -63,7 +73,7 @@ const myProjects = [
         description: 'This will be the description.'
     },
     {
-        id: 7,
+        id: 8,
         imagePath: codeQuizImg,
         imageAlt: 'Screenshot of Code Quiz',
         liveLink: 'https://ericolson1977.github.io/Code-Quiz-Challenge-4/',

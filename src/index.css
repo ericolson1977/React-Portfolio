@@ -1,0 +1,44 @@
+body {
+    background-color: rgba(8, 58, 116, 0.308) !important;
+}
+
+#content {
+    min-height: 100vh;
+  }
+  
+.card-hover .overlay {
+    display: none;
+  }
+  
+.card-hover:hover .overlay {
+    display: block;
+    background-color: #d4d6e2;
+  }
+  
+.hidden-link:hover {
+    font-weight: bolder;
+    box-shadow: 4px;
+    text-decoration: underline;
+  }
+  
+.hidden-button {
+    padding: 2px;
+  }
+  
+.hidden-button:hover {
+    padding: 0px;
+  }
+  
+.card-text {
+    font-size: small;
+  }
+  
+#nf-wrap {
+    min-height: 100%;
+  }
+  
+#non-footer {
+    overflow: auto;
+    padding-bottom: 80px;
+  }
+  

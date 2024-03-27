@@ -3,7 +3,7 @@ import '../styles/Nav.css';
 export default function Nav({ setCurrentPage }) {
 
     return (
-        <nav class="navbar navbar-expand-lg bg-body-tertiary custom-background">
+        <nav id="background" class="navbar navbar-expand-lg bg-body-tertiary custom-background">
             <div id="nav-background" class="container-fluid">
                 <a id="nav-name"class="navbar-brand">Eric Olson</a>
                 <div>
@@ -14,9 +14,9 @@ export default function Nav({ setCurrentPage }) {
                         <a id="nav-link" class="nav-link" href="#" onClick={() => {
                             setCurrentPage("Portfolio")
                         }} > Portfolio</a>
-                        <a id="nav-link" class="nav-link" href="#" onClick={() => {
+                        {/* <a id="nav-link" class="nav-link" href="#" onClick={() => {
                             setCurrentPage("Contact")
-                        }}>Contact Me</a>
+                        }}>Contact Me</a> */}
                         <a id="nav-link" class="nav-link" href="#" onClick={() => {
                             setCurrentPage("Resume")
                         }} > Resume</a>

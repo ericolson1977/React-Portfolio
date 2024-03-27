@@ -1,5 +1,4 @@
 #nav-background {
-    height: 15vh;
     background-image: url("../images/earth.jpg");
     background-size: cover;
     background-position: center;
@@ -12,7 +11,7 @@
     font-size: xxx-large;
 }
 
-#nav-bar{
+#nav-bar {
     justify-content: right;
 }
 
@@ -24,3 +23,6 @@
     font-size: large;
 }
 
+#background {
+    background-color: black !important;
+}
